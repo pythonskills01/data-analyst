@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
         <div className="mb-8 relative">
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-2xl">
             <img 
-              src="profile.jpg" 
+              src="https://raw.githubusercontent.com/pythonskills01/data-analyst/main/40197959.png" 
               alt="Profile" 
               className="w-full h-full object-cover"
               onError={(e) => {
