@@ -26,7 +26,8 @@ export const Hero: React.FC = () => {
               alt="Profile" 
               className="w-full h-full object-cover"
               onError={(e) => {
-                e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=300&h=300";
+                const target = e.target as HTMLImageElement;
+                target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=300&h=300";
               }}
             />
           </div>
